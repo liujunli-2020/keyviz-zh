@@ -8,6 +8,7 @@
    <img src="https://img.shields.io/github/stars/liujunli-2020/keyviz-zh?style=flat-square" alt="Stars">
    <img src="https://img.shields.io/github/license/liujunli-2020/keyviz-zh?style=flat-square" alt="License">
    <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey?style=flat-square" alt="Platform Support">
+   <img src="https://img.shields.io/badge/forked_from-mulaRahul%2Fkeyviz-blue?style=flat-square" alt="Fork">
 </div>
 
 Keyviz-zh 是一款**免费且开源**的工具，可以实时可视化你的按键和鼠标操作。让你在进行教程、演示、协作或其他场景时，观众能清楚地看到你按下了哪些快捷键。
