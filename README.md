@@ -1,71 +1,77 @@
-# [Keyviz](https://keyviz.org)
+# [Keyviz-zh](https://github.com/liujunli-2020/keyviz-zh)
+
+> 🔰 本项目 Fork 自 [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz)，汉化版。
 
 <div>
-   <img src="https://img.shields.io/github/v/release/mulaRahul/keyviz?style=flat-square" alt="Releases">
-   <img src="https://img.shields.io/github/downloads/mulaRahul/keyviz/total?style=flat-square" alt="Downloads">
-   <img src="https://img.shields.io/github/stars/mulaRahul/keyviz?style=flat-square" alt="Stars">
-   <img src="https://img.shields.io/github/license/mulaRahul/keyviz?style=flat-square" alt="License">
+   <img src="https://img.shields.io/github/v/release/liujunli-2020/keyviz-zh?style=flat-square" alt="Releases">
+   <img src="https://img.shields.io/github/downloads/liujunli-2020/keyviz-zh/total?style=flat-square" alt="Downloads">
+   <img src="https://img.shields.io/github/stars/liujunli-2020/keyviz-zh?style=flat-square" alt="Stars">
+   <img src="https://img.shields.io/github/license/liujunli-2020/keyviz-zh?style=flat-square" alt="License">
    <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS-lightgrey?style=flat-square" alt="Platform Support">
 </div>
 
-Keyviz is a **free and open-source** tool that visualizes your keypresses and mouse actions in real-time. Let your audience know what handy shortcuts you're pressing during tutorials, presentations, collaborations, or whenever you need.
+Keyviz-zh 是一款**免费且开源**的工具，可以实时可视化你的按键和鼠标操作。让你在进行教程、演示、协作或其他场景时，观众能清楚地看到你按下了哪些快捷键。
 
-## ⌨️ Keypress & 🖱️ Mouse Actions
-Along with normal keys, you can also visualize mouse actions like <kbd>Cmd</kbd> + <kbd>Click</kbd>, <kbd>Alt</kbd> + <kbd>Drag</kbd>, etc.
+**本仓库基于 [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz) 进行汉化，主要改动为界面中文化，方便中文用户使用。**
 
-<img src="previews/visualization.png" alt="Keystroke Visualization" width="450">
+## ⌨️ 按键 & 🖱️ 鼠标操作
 
-Display mouse clicks and scroll wheel movements alongside your cursor.
+除了普通按键外，还可以可视化鼠标操作，例如 <kbd>Cmd</kbd> + <kbd>单击</kbd>、<kbd>Alt</kbd> + <kbd>拖拽</kbd> 等。
 
-<img src="previews/mouse-indicator.gif" alt="Mouse Indicator" width="450">
+<img src="previews/visualization.png" alt="按键可视化" width="450">
 
-</br>
+在光标旁边显示鼠标点击和滚轮移动。
 
-## ⚙️ Full Customization
-Don't settle for defaults. Every aspect of the visualization is under your control:
-- **Styling:** Change colors (modifier vs. regular keys), size, layout, border, and background.
-- **Filtering:** Control which keys are shown using hotkey or custom filters.
-- **History:** Keep a visual trail of your recent inputs.
-- **Position:** Move the visualization to any part of your screen.
-- **Animations:** Customize how inputs appear and disappear with preset entry and exit animations.
+<img src="previews/mouse-indicator.gif" alt="鼠标指示器" width="450">
 
 </br>
 
-<img src="previews/settings.png" alt="Settings Panel" width="600">
+## ⚙️ 完全自定义
+
+不满足于默认设置。可视化的每个方面都可以由你掌控：
+- **样式：** 更改颜色（修饰键 vs 普通键）、大小、布局、边框和背景。
+- **过滤：** 使用快捷键或自定义过滤器控制显示哪些按键。
+- **历史记录：** 保留最近输入的视觉轨迹。
+- **位置：** 将可视化移动到屏幕的任意位置。
+- **动画：** 使用预设的入场和退场动画自定义输入的出现和消失方式。
 
 </br>
 
-## 📥 Installation
+<img src="previews/settings.png" alt="设置面板" width="600">
+
+</br>
+
+## 📥 安装
 
 ### Windows & macOS
-You can download the latest version of Keyviz from the **[GitHub Releases](https://github.com/mulaRahul/keyviz/releases)** page.
+可以从 **[GitHub Releases](https://github.com/liujunli-2020/keyviz-zh/releases)** 页面下载最新版本。
 
-*   **Windows:** Download the `.msi` installer, run it, and follow the steps.
-*   **macOS:** Download the `.dmg`. 
-    **Note:** Keyviz requires **Input Monitoring** and **Accessibility** permissions. Enable them here:
-    `Settings > Privacy & Security > Input Monitoring & Accessibility`
+*   **Windows：** 下载 `.msi` 安装程序，运行并按照步骤操作。
+*   **macOS：** 下载 `.dmg`。
+    **注意：** Keyviz-zh 需要**输入监控**和**辅助功能**权限。请在此处启用：
+    `设置 > 隐私与安全性 > 输入监控与辅助功能`
 
 ### Linux (x11)
-Keyviz is compatible with Linux using the X11 protocol. Currently, you can try it out by following the build instructions below.
+Keyviz-zh 兼容使用 X11 协议的 Linux 系统。目前你可以按照下面的构建说明来尝试。
 
 </br>
 
-## 🛠️ Build Instructions
+## 🛠️ 构建说明
 
-If you want to contribute or build the latest features from the source, ensure you have [Node.js](https://nodejs.org/) and [Tauri](https://v2.tauri.app/start) set up on your system.
+如果你想贡献代码或从源码构建最新功能，请确保系统上已安装 [Node.js](https://nodejs.org/) 和 [Tauri](https://v2.tauri.app/start)。
 
-1.  **Clone the repository:**
+1.  **克隆仓库：**
     ```bash
-    git clone https://github.com/mulaRahul/keyviz.git
-    cd keyviz
+    git clone https://github.com/liujunli-2020/keyviz-zh.git
+    cd keyviz-zh
     ```
 
-2.  **Install dependencies:**
+2.  **安装依赖：**
     ```bash
     npm install
     ```
 
-3.  **Build the executable:**
+3.  **构建可执行文件：**
     ```bash
     npx tauri build
     ```
@@ -73,16 +79,22 @@ If you want to contribute or build the latest features from the source, ensure y
 <br/>
 
 
-## 💖 Support the Project
+## 💖 支持项目
 
-*   **Star the Repo:** It helps others discover the project!
-*   **GitHub Sponsors:** [Sponsor @mularahul](https://github.com/sponsors/mulaRahul)
-*   **Keyviz Pro:** Get access to exclusive features while supporting the development of this open-source project.
+*   **Star 仓库：** 帮助更多人发现这个项目！
+*   **赞助原作者：** [Sponsor @mulaRahul](https://github.com/sponsors/mulaRahul)
+*   **Keyviz Pro：** 获取独家功能，同时支持这个开源项目的开发。
 
-👉 **[Upgrade to Pro at keyviz.org/pro](https://keyviz.org/pro)**
+👉 **[升级到 Pro 版 at keyviz.org/pro](https://keyviz.org/pro)**
 
 </br>
 
 ---
 
-  Built with 🦀 and ❤️ using <a href="https://v2.tauri.app/">Tauri</a>.
+## 📝 关于汉化版
+
+- **Fork 自：** [mulaRahul/keyviz](https://github.com/mulaRahul/keyviz)
+- **改动内容：** 界面中文化（简体中文）
+- **上游版本：** 跟随上游最新版本同步更新
+
+Built with 🦀 and ❤️ using <a href="https://v2.tauri.app/">Tauri</a>.
